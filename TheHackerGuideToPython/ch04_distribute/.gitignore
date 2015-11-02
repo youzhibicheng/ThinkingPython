@@ -1,0 +1,8 @@
+build/
+dist/
+helloworld-0.2/
+HelloWorld.egg-info
+MANIFEST
+
+AUTHORS
+ChangeLog
