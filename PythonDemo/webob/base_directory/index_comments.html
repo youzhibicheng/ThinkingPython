@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <title>JamesZOU</title>
+ </head>
+ <body>
+  JAMES ZOU
+  <h2>Leave a comment:</h2>
+  <form action="http://localhost:8080/.comments" method="POST">
+   <input type="hidden" name="url" value="http://localhost:8080/index.html" />
+   <table width="100%">
+    <tbody>
+     <tr>
+      <td>Name:</td>
+      <td><input type="text" name="name" style="width: 100%" /></td>
+     </tr>
+     <tr>
+      <td>URL:</td>
+      <td><input type="text" name="homepage" style="width: 100%" /></td>
+     </tr>
+    </tbody>
+   </table>Comments:
+   <br />
+   <textarea name="comments" rows="10" style="width: 100%"></textarea>
+   <br />
+   <input type="submit" value="Submit comment" />
+  </form>
+ </body>
+</html>

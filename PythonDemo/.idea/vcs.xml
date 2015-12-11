@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+    <mapping directory="E:/WorkspaceOpenStack/horizon" vcs="Git" />
+    <mapping directory="E:/WorkspaceOpenStack/keystone" vcs="Git" />
+    <mapping directory="E:/WorkspaceOpenStack/nova" vcs="Git" />
+  </component>
+</project>

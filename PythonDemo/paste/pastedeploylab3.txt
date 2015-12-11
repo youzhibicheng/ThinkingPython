@@ -1,0 +1,4 @@
+http://localhost:7070/
+http://localhost:7070/log
+http://localhost:7070/v1
+http://localhost:7070/v1/test

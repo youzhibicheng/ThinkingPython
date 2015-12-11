@@ -1,0 +1,19 @@
+使用：
+http://127.0.0.1:8080/
+输出：
+Paste Deploy LAB: Version = 1.0.0
+
+使用:
+http://127.0.0.1:8080/calc?operator=plus&operand1=12&operand2=23
+输出：
+UnicodeMultiDict([('operator', u'plus'), ('operand1', u'12'), ('operand2', u'23')])
+RESULT= 35
+
+如果使用pycharm运行的话，会出现这样的错误
+C:\Python27\python.exe E:/WorkspaceThinking/ThinkingPython/WsgiDemo/paste/pastedeploylab.py
+Traceback (most recent call last):
+  File "E:/WorkspaceThinking/ThinkingPython/WsgiDemo/paste/pastedeploylab.py", line 11, in <module>
+    from wsgiref.simple_server import make_server
+ImportError: No module named simple_server
+
+但如果直接到目录下python执行，就可以，不知道是什么原因

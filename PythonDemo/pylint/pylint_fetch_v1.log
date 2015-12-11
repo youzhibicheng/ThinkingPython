@@ -1,0 +1,105 @@
+************* Module fetch_v1
+C: 16, 0: Exactly one space required after comma
+    urls = ['http://www.baidu.com','http://www.sohu.com']
+                                  ^ (bad-whitespace)
+C: 17, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Invalid function name "a" (invalid-name)
+C:  5, 0: Missing function docstring (missing-docstring)
+C:  7, 4: Invalid variable name "f" (invalid-name)
+W: 11, 9: Redefining name 'urls' from outer scope (line 16) (redefined-outer-name)
+C: 11, 0: Missing function docstring (missing-docstring)
+C: 16, 4: Invalid constant name "urls" (invalid-name)
+
+
+Report
+======
+13 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |2          |=          |0.00        |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |14     |77.78 |14       |=          |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |0        |=          |
++----------+-------+------+---------+-----------+
+|comment   |1      |5.56  |1        |=          |
++----------+-------+------+---------+-----------+
+|empty     |3      |16.67 |3        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |8      |8        |=          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |1      |1        |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++----------------------+------------+
+|message id            |occurrences |
++======================+============+
+|missing-docstring     |3           |
++----------------------+------------+
+|invalid-name          |3           |
++----------------------+------------+
+|redefined-outer-name  |1           |
++----------------------+------------+
+|missing-final-newline |1           |
++----------------------+------------+
+|bad-whitespace        |1           |
++----------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 3.08/10 (previous run: 3.08/10, +0.00)
+

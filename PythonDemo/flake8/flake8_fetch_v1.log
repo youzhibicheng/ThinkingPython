@@ -1,0 +1,5 @@
+fetch_v1.py:1:1: E265 block comment should start with '# '
+fetch_v1.py:3:1: H306  imports not in alphabetical order (urllib, time)
+fetch_v1.py:5:1: E302 expected 2 blank lines, found 1
+fetch_v1.py:11:1: E302 expected 2 blank lines, found 1
+fetch_v1.py:16:35: E231 missing whitespace after ','

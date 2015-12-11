@@ -62,6 +62,26 @@ psutil
 https://pypi.python.org/pypi/psutil
 pip install psutil
 
+IPy
+https://github.com/autocracy/python-ipy
+# pip install IPy
+解压
+# python setup.py install
+
+dnspython
+DNS基本概念
+	正解 域名-IP
+	反解 IP-域名
+	ZONE 
+linux上相关的命令
+host
+nslookup
+dig
+	yum -y install bind-utils
+whois
+	yum -y install whois
+DNS软件bind
+	yum -y install bind bind-chroot bind-devel bind-libs bind-license
 
 
 #《Python自动化运维：技术与最佳实践》附带示例及案例源码
