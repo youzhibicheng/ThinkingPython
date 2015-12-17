@@ -45,6 +45,6 @@ if __name__ == '__main__':
      config = "pastedeploylab3.ini"
      appname = "common"
      wsgi_app = loadapp("config:%s" % os.path.abspath(config), appname)
-     server = make_server('localhost',7070,wsgi_app)
+     server = make_server('localhost', 8080, wsgi_app)
      server.serve_forever()
      pass

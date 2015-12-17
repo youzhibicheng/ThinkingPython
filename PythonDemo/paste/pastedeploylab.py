@@ -58,10 +58,11 @@ class Calculator():
             opnd1 = opnd1 * opnd2
         elif operator == u'slash':
             opnd1 = opnd1 / opnd2
-        res.body = "%s \n RESULT= %d" % (str(req.GET) , opnd1)
-        return res(environ,start_response)
+        res.body = "%s \n RESULT= %d" % (str(req.GET), opnd1)
+        return res(environ, start_response)
+
     @classmethod
-    def factory(cls,global_conf,**kwargs):
+    def factory(cls, global_conf,**kwargs):
         print "in Calculator.factory", global_conf, kwargs
         return Calculator()
 

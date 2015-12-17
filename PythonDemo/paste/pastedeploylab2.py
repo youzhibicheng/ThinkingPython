@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import sys
 import os
 import webob
@@ -54,7 +56,9 @@ class ShowStuDetail(object):
       '''
       app
       '''
-      def __init__(self,name,age):
+      def __init__(self, name, age):
+          # 在url没有制定name和age的情况下
+          # 会用pastedeploylab2.ini中对应的name,age初始化
           self.name = name
           self.age = age
       def __call__(self,environ,start_response):
@@ -104,6 +108,6 @@ if __name__ == '__main__':
      config = "pastedeploylab2.ini"
      appname = "common"
      wsgi_app = loadapp("config:%s" % os.path.abspath(config), appname)
-     server = make_server('localhost',7070,wsgi_app)
+     server = make_server('localhost',8080,wsgi_app)
      server.serve_forever()
      pass
