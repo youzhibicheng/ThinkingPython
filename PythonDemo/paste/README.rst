@@ -3,6 +3,9 @@ http://pythonpaste.org/index.html
 paste.deploy
 http://pythonpaste.org/deploy/
 
+installation
+$ sudo pip install PasteDeploy
+
 simple_test.py
     http://127.0.0.1:8080
 
